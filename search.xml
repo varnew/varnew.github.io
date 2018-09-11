@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo常用命令]]></title>
+    <url>%2F2018%2F09%2F11%2Fhexo_user%2F</url>
+    <content type="text"><![CDATA[123#### 本地预览hexo s 1234567#### 部署hexo cleanhexo generatehexo deploy 123#### 新建文章hexo new &quot;article name&quot; 12345#### 文章初始化建议模板title: article namecategories: [分类1, 分类2]tags: [标签1, 标签2] 12345#### 发布文章hexo cleanhexo generatehexo deploy]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[nvm常用命令]]></title>
+    <url>%2F2018%2F09%2F11%2Fnvm%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
+    <content type="text"><![CDATA[nvm常用命令 安装指定版本，可模糊安装，如：安装v4.4.0，既可nvm install1nvm install &lt;version&gt; v4.4.0，又可nvm install 4.4 删除已安装的指定版本，语法与install类似1nvm uninstall &lt;version&gt; 切换使用指定的版本node1nvm use &lt;version&gt; 列出所有安装的版本1nvm ls 列出所以远程服务器的版本（官方node version list）1nvm ls-remote 显示当前的版本1nvm current 给不同的版本号添加别名1nvm alias &lt;name&gt; &lt;version&gt; 删除已定义的别名1nvm unalias &lt;name&gt; 在当前版本node环境下，重新全局安装指定版本号的npm包1nvm reinstall-packages &lt;version&gt;]]></content>
+      <tags>
+        <tag>nvm</tag>
+        <tag>node</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[热烈欢迎]]></title>
+    <url>%2F2018%2F09%2F04%2Fbobo%2F</url>
+    <content type="text"><![CDATA[欢迎帅波大驾光临]]></content>
+      <categories>
+        <category>nginx</category>
+      </categories>
+  </entry>
+</search>
