@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #45f94f;
+  background: #ffff2f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2815,7 +2815,7 @@ hr {
 .wordcount {
   color: #999;
   font-size: 12px;
-  vertical-align: super;
+  vertical-align: middle;
   margin: 0px 10px 0px;
   border-radius: 4px;
   padding: 4px 8px;
