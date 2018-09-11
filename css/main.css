@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1a9eff;
+  background: #9aedc4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2814,15 +2814,13 @@ hr {
 }
 .wordcount {
   position: relative;
-  top: -6px;
+  top: -2px;
   color: #999;
   font-size: 12px;
   vertical-align: middle;
-  margin: 0px 10px 0px;
-  border-radius: 4px;
-  padding: 4px 8px;
   text-align: center;
-  background: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
 }
 .local-search-pop-overlay {
   z-index: 0;
