@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[vue+pug]]></title>
+    <url>%2F2018%2F09%2F19%2Fvue%E4%BD%BF%E7%94%A8pug%2F</url>
+    <content type="text"><![CDATA[vue使用pug第一步 安装支持pug依赖123npm install pug pug-loader pug-filters -D#安装支持jade依赖npm install jade jade-loader -D 第二步 webpack.base.conf.js中加入一下内容：12345678&#123; test: /\.jade$/, loader: &quot;jade&quot;&#125;,&#123; test: /\.pug$/, loader: &apos;pug&apos;&#125; 现在.vue文件已经支持书写pug了, 需要增加lang=”pug”123&lt;template lang=&quot;pug&quot;&gt; div.main(:class=&quot;&#123;&apos;order-class&apos;: true&#125;&quot;) &#123;&#123;value&#125;&#125;&lt;/template&gt;]]></content>
+      <categories>
+        <category>pug</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>pug</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[hexo常用命令]]></title>
     <url>%2F2018%2F09%2F11%2Fhexo_user%2F</url>
-    <content type="text"><![CDATA[123#### 本地预览hexo s 1234567#### 部署hexo cleanhexo generatehexo deploy 123#### 新建文章hexo new &quot;article name&quot; 12345#### 文章初始化建议模板title: article namecategories: [分类1, 分类2]tags: [标签1, 标签2] 12345#### 发布文章hexo cleanhexo generatehexo deploy]]></content>
+    <content type="text"><![CDATA[本地预览1hexo s 部署12345hexo cleanhexo generatehexo deploy 新建文章1hexo new &quot;article name&quot; 文章初始化建议模板123title: article namecategories: [分类1, 分类2]tags: [标签1, 标签2] 发布文章123hexo cleanhexo generatehexo deploy]]></content>
       <categories>
         <category>博客</category>
       </categories>
