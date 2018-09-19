@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[hexo常用命令]]></title>
     <url>%2F2018%2F09%2F11%2Fhexo_user%2F</url>
-    <content type="text"><![CDATA[本地预览1hexo s 部署12345hexo cleanhexo generatehexo deploy 新建文章1hexo new &quot;article name&quot; 文章初始化建议模板123title: article namecategories: [分类1, 分类2]tags: [标签1, 标签2] 发布文章123hexo cleanhexo generatehexo deploy]]></content>
+    <content type="text"><![CDATA[本地预览1hexo s 部署12345hexo cleanhexo generatehexo deploy 新建文章1hexo new &quot;article name&quot; 文章初始化建议模板123title: article namecategories: [分类1, 分类2]tags: [标签1, 标签2] 发布文章123hexo cleanhexo generatehexo depoly]]></content>
       <categories>
         <category>博客</category>
       </categories>
