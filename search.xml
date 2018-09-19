@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[vue+pug]]></title>
     <url>%2F2018%2F09%2F19%2Fvue%E4%BD%BF%E7%94%A8pug%2F</url>
-    <content type="text"><![CDATA[vue使用pug第一步 安装支持pug依赖123npm install pug pug-loader pug-filters -D#安装支持jade依赖npm install jade jade-loader -D 第二步 webpack.base.conf.js中加入一下内容：12345678&#123; test: /\.jade$/, loader: &quot;jade&quot;&#125;,&#123; test: /\.pug$/, loader: &apos;pug&apos;&#125; 现在.vue文件已经支持书写pug了, 需要增加lang=”pug”123&lt;template lang=&quot;pug&quot;&gt; div.main(:class=&quot;&#123;&apos;order-class&apos;: true&#125;&quot;) &#123;&#123;value&#125;&#125;&lt;/template&gt;]]></content>
+    <content type="text"><![CDATA[vue使用pug第一步 安装支持pug依赖123npm install pug pug-loader pug-filters -Dnpm install jade jade-loader -D 第二步 webpack.base.conf.js中加入一下内容：12345678&#123; test: /\.jade$/, loader: &quot;jade&quot;&#125;,&#123; test: /\.pug$/, loader: &apos;pug&apos;&#125; 现在.vue文件已经支持书写pug了, 需要增加lang=”pug”123&lt;template lang=&quot;pug&quot;&gt; div.main(:class=&quot;&#123;&apos;order-class&apos;: true&#125;&quot;) &#123;&#123;value&#125;&#125;&lt;/template&gt;]]></content>
       <categories>
         <category>pug</category>
       </categories>
